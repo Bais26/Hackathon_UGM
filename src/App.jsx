@@ -4,12 +4,19 @@ import reactLogo from './assets/react.svg'
 // import './index.css'
 import Navbar from './Component/Navbar'
 import Nav from './Component/Nav'
+import Article from './Component/Article'
+import ArticlesNew from './Component/ArticlesNew'
 
 function App() {
   return (
     <div>
       <Navbar />
+    <div>
+      {/* <Article /> */}
+      <ArticlesNew/>
     </div>
+    </div>
+
   )
 }
 
