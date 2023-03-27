@@ -6,14 +6,10 @@ import Navbar from './Component/Navbar'
 import Nav from './Component/Nav'
 
 function App() {
-  return(
-  <div>
-    <Navbar/> 
+  return (
     <div>
-    <h2 className='text-black font-bold justify-center text-6xl p-5 text-center'>Today News</h2>
-      <Nav/>
+      <Navbar />
     </div>
-  </div>
   )
 }
 
