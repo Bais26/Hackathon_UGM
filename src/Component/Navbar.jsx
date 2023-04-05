@@ -34,6 +34,26 @@ const Navbar = () => {
     {
       nama: "Olahraga",
       category: "sport"
+    },
+    {
+      nama: "Travel",
+      category: "travel"
+    },
+    {
+      nama: "Wolipop",
+      category: "wolipop"
+    },
+    {
+      nama: "Otomotif",
+      category: "oto  "
+    },
+    {
+      nama: "News",
+      category: "news"
+    },
+    {
+      nama: "Hot",
+      category: "hot"
     }
   ]
 
@@ -55,7 +75,8 @@ const Navbar = () => {
           </a>
           <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
             <a class="mr-5 hover:text-gray-900">HOME</a>
-            <a class="mr-5 hover:text-gray-900 cursor-pointer" onClick={() => handleNav('kompas')}>Kompas</a>
+            <a class="mr-5 hover:text-gray-900 cursor-pointer" onClick={() => handleNav('kompas')}>Kompas
+            </a>
             <a class="mr-5 hover:text-gray-900 cursor-pointer" onClick={() => handleNav('detik')}>Detik</a>
             <a class="mr-5 hover:text-gray-900">FEATURES</a>
           </nav>
