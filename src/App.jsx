@@ -4,6 +4,8 @@ import reactLogo from './assets/react.svg'
 // import './index.css'
 import Navbar from './Component/Navbar'
 import Nav from './Component/Nav'
+import Articles from './Component/Article'
+import Search from './Featur/Search'
 import Article from './Component/Article'
 import ArticlesNew from './Component/ArticlesNew'
 
@@ -11,8 +13,10 @@ function App() {
   return (
     <div>
       <Navbar />
+      <div>
+        {/* <Articles/> */}
+      </div>
     <div>
-      {/* <Article /> */}
       <ArticlesNew/>
     </div>
     </div>
