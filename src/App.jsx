@@ -6,6 +6,8 @@ import Navbar from './Component/Navbar'
 import Nav from './Component/Nav'
 import Articles from './Component/Article'
 import Search from './Featur/Search'
+import Article from './Component/Article'
+import ArticlesNew from './Component/ArticlesNew'
 
 function App() {
   return (
@@ -14,7 +16,11 @@ function App() {
       <div>
         {/* <Articles/> */}
       </div>
+    <div>
+      <ArticlesNew/>
     </div>
+    </div>
+
   )
 }
 

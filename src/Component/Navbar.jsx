@@ -16,32 +16,51 @@ const Navbar = () => {
       }))
   ]
 
-  const detik = [
-    {
-      nama: "Inet",
-      category: "inet"
-    },
-    {
-      nama: "Keuangan",
-      category: "finance"
-    },
-    {
-      nama: "Olahraga",
-      category: "sport"
-    },
-    {
-      nama: "Inet",
-      category: "inet"
-    },
-    {
-      nama: "otomotif",
-      category: "oto"
-    },
-    {
-      nama: "makanan",
-      category: "food"
-    },
-  ]
+  // const detik = [
+  //   {
+  //     nama: "Inet",
+  //     category: "inet"
+  //   },
+  //   {
+  //     nama: "Keuangan",
+  //     category: "finance"
+  //   },
+  //   {
+  //     nama: "Olahraga",
+  //     category: "sport"
+  //   },
+  //   {
+  //     nama: "Inet",
+  //     category: "inet"
+  //   },
+  //   {
+  //     nama: "otomotif",
+  //     category: "oto"
+  //   },
+  //   {
+  //     nama: "makanan",
+  //     category: "food"
+  //   },
+  //     nama: "Travel",
+  //     category: "travel"
+  //   },
+  //   {
+  //     nama: "Wolipop",
+  //     category: "wolipop"
+  //   },
+  //   {
+  //     nama: "Otomotif",
+  //     category: "oto  "
+  //   },
+  //   {
+  //     nama: "News",
+  //     category: "news"
+  //   },
+  //   {
+  //     nama: "Hot",
+  //     category: "hot"
+  //   }
+  // ]
 
   const handleNav = (a) => {
     if (a === 'kompas') {
@@ -63,6 +82,13 @@ const Navbar = () => {
             <a className="mr-5 hover:text-gray-900 cursor-pointer" onClick={() => handleNav('kompas')}>Kompas</a>
             <a className="mr-5 hover:text-gray-900 cursor-pointer" onClick={() => handleNav('detik')}>Detik</a>
             <a className="mr-5 hover:text-gray-900">FEATURES</a>
+          </nav>
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900">HOME</a>
+            <a class="mr-5 hover:text-gray-900 cursor-pointer" onClick={() => handleNav('kompas')}>Kompas
+            </a>
+            <a class="mr-5 hover:text-gray-900 cursor-pointer" onClick={() => handleNav('detik')}>Detik</a>
+            <a class="mr-5 hover:text-gray-900">FEATURES</a>
           </nav>
           <button className="inline-flex items-center bg-[#f1e6d2] py-1 px-3 focus:outline-none hover:bg-[#f1e6d2] rounded text-base mt-4 md:mt-0 border border-black">CONTACT US
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
